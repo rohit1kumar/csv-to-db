@@ -6,6 +6,7 @@ const csv = require('csvtojson')
 //add product with csv file
 const addProduct = async (req, res) => {
     try {
+        
         const data = await csv().fromFile('uploads/' + req.file.filename)
 
         await Product.insertMany(data)

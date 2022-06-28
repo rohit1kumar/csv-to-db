@@ -24,6 +24,7 @@ const auth = (req, res, next) => {
         }
 
         if (decoded) {
+            console.log(decoded.username)
             next()
         }
     })
