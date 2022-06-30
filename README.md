@@ -15,10 +15,10 @@ Also, be sure to have `git` available in your PATH, `npm` might need it (You can
 ## Getting Stated
 
 ### Clone the repository
-    $ git clone https://github.com/rohit1kumar/csvToDB.git
+    $ git clone https://github.com/rohit1kumar/csv-to-db.gitt
 
 ### Install dependencies
-    $ cd csvToDB
+    $ cd csv-to-db
     $ npm install
 
 ### Add environment variables 
